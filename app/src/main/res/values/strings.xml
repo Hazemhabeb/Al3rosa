@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">"Al 3rosa "</string>
+    <string name="sign_up_with_facebook">sign up with facebook</string>
+    <string name="sign_up_with_google">sign up with google</string>
+    <string name="sign_up_with_email">sign up with email</string>
+    <string name="sign_up_have_account">Already have an account</string>
+
+    <string name="sign_up_sign_in_now"><u>Sing In Now</u></string>
+    <string name="intro_summery_1">Free for all your professional and personal designs</string>
+</resources>

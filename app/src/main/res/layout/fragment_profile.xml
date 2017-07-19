@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/p7"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="Count Down"
+                android:textColor="@color/wight"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/landing_img_slide"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/proposal" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="100dp"
+                android:layout_weight="1"
+                android:background="@color/p1"
+                android:gravity="center|top"
+                android:text="\n08\nMonths"
+                android:textColor="@color/wight"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="70dp"
+                android:layout_weight="1"
+                android:background="@color/p2"
+                android:gravity="center|top"
+                android:text="\n03\nWeek"
+                android:textColor="@color/wight"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="40dp"
+                android:layout_weight="1"
+                android:background="@color/p3"
+                android:gravity="center|top"
+                android:text="\n\n13\nDays"
+                android:textColor="@color/wight"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="100dp"
+                android:layout_weight="1"
+                android:background="@color/p4"
+                android:gravity="center|top"
+                android:text="\n23\nHours"
+                android:textColor="@color/wight"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <!--<Button-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:background="@drawable/profile_share_btn"-->
+        <!--android:text="Sahre"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="#FFF"-->
+        <!--android:layout_gravity="bottom|left"-->
+        <!--android:layout_marginBottom="60dp"-->
+        <!--android:layout_marginLeft="30dp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textSize="15sp"/>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center"
+            android:text="Aya Hosny"
+            android:textColor="@color/wight"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/aymaBtn"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/profile_ayma_btn"
+        android:text="القايمة"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:layout_gravity="top|right"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:textStyle="bold"
+        android:textSize="17sp"/>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:src="@drawable/share_variant"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="20dp"/>
+</FrameLayout>

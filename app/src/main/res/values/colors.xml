@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A8368B</color>
+    <color name="colorPrimaryDark">#8C2F7A</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--here the login colors-->
+    <color name="login_facebook">#4A6EA9</color>
+    <color name="login_google">#E74C3C</color>
+    <color name="google_new">#EA4335</color>
+
+    <!--aya suggust -->
+    <color name="a_">#A2235B</color>
+    <color name="a19">#9A0958</color>
+
+    <color name="a1">#EE4A87</color>
+    <color name="a2">#7CD2E7</color>
+    <color name="a3">#A4DADA</color>
+    <color name="a4">#F6D670</color>
+    <color name="a5">#FFB8AE</color>
+    <color name="a6">#1DD39B</color>
+    <color name="a7">#E4ABB7</color>
+    <color name="a8">#99EEFF</color>
+    <color name="a9">#F56790</color>
+    <color name="a10">#31F6A9</color>
+    <color name="a11">#ABFED4</color>
+    <color name="a12">#9FBE7F</color>
+    <color name="a13">#FED450</color>
+    <color name="a14">#FFE012</color>
+    <color name="a15">#FFB8AE</color>
+    <color name="a16">#D1F0CF</color>
+    <color name="a17">#E8A48C</color>
+    <color name="a18">#84DAA3</color>
+
+    <!--end of aya suggust-->
+
+    <!--bottom navigation -->
+    <color name="wight">#FFFFFF</color>
+    <color name="black">#242424</color>
+    <color name="black_text">#414141</color>
+    <color name="gray">#D8D7DC</color>
+    <color name="gray_text">#7b7b7b</color>
+
+
+    <!--profile colors-->
+
+    <color name="p1">#00C5E9</color>
+    <color name="p2">#F86BCE</color>
+    <color name="p3">#00D0A8</color>
+    <color name="p4">#F3973B</color>
+    <color name="p5">#46484E</color>
+    <color name="p6">#006989</color>
+    <color name="p7">#706298</color>
+    <color name="p8">#FF4489</color>
+
+
+    <!--ayma colors-->
+
+    <color name="i1">#8E44AD</color>
+    <color name="i2">#924AB0</color>
+    <color name="i3">#8EB021</color>
+    <color name="i4">#C0392C</color>
+    <color name="istart">#632F79</color>
+    <color name="iend">#8E44AD</color>
+
+
+</resources>
+
